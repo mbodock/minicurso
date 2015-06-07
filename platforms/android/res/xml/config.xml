@@ -11,6 +11,9 @@
     <preference name="Fullscreen" value="true" />
     <preference name="Orientation" value="portrait" />
     <allow-intent href="market:*" />
+    <icon density="mdpi" src="res/android/mdpi.png" />
+    <icon density="hdpi" src="res/android/hdpi.png" />
+    <icon density="xhdpi" src="res/android/xhdpi.png" />
     <name>Bodock</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
