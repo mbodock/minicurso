@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.bodock.teste" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.bodock.teste" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
     <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
@@ -8,12 +8,18 @@
     <feature name="Vibration">
         <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
     </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
     <preference name="Fullscreen" value="true" />
     <preference name="Orientation" value="portrait" />
     <allow-intent href="market:*" />
-    <icon density="mdpi" src="res/android/mdpi.png" />
-    <icon density="hdpi" src="res/android/hdpi.png" />
-    <icon density="xhdpi" src="res/android/xhdpi.png" />
+    <icon density="mdpi" src="platforms/android/res/mdpi.png" />
+    <icon density="hdpi" src="platforms/android/res/hdpi.png" />
+    <icon density="xhdpi" src="platforms/android/res/xhdpi.png" />
     <name>Bodock</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
